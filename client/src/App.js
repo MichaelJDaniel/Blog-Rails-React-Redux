@@ -9,10 +9,10 @@ import { Container } from 'semantic-ui-react';
 
 const App = () => (
   <>
-    {/* <NavBar/>  */}
+    <NavBar/> 
     <Container>
       <Switch>
-        <Route exact path="/" component={ Blogs  }/>
+        <Route exact path="/" component={ Home  }/>
         <Route exact path="/blog/:id" component={BlogList}/>
       </Switch>
     </Container>
